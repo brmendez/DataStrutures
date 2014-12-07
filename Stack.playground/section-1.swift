@@ -10,7 +10,9 @@ class Stack {
     }
     
     func pop() -> String {
-        
+        var popItem = itemArray.last
+        itemArray.removeLast()
+        return popItem!
     }
     
     
