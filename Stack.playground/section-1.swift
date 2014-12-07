@@ -14,6 +14,5 @@ class Stack {
         itemArray.removeLast()
         return popItem!
     }
-    
-    
+
 }
