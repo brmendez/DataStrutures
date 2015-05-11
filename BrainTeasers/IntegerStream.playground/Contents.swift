@@ -35,4 +35,6 @@ for (var i = 0; i < arrayStream.count; i++) {
 		}
 
 }
-answerArray
+println(answerArray)
+
+//Output is: "[1, 1, 3, 3, 5, 5, 4, 4, 4, 4]"
