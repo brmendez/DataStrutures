@@ -22,6 +22,8 @@ for (var i = 0; i < arrayStream.count; i++) {
 		}
 		else if (i > 0 && i < arrayStream.count - 1) {
 			if (  (arrayStream[i] == arrayStream[i - 1]) || (arrayStream[i] == arrayStream[i + 1] )  ) {
+		
+				
 				
 				answerArray.append(arrayStream[i])
 			}
