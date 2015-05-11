@@ -30,4 +30,6 @@ func makeSentenceBackwards(value: String) -> String {
 
 
 makeSentenceBackwards(aSentence)
+//Output = "Cat Black Big"
 makeSentenceBackwards("This is a test")
+//Output = "test a is This"
